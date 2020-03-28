@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
         public ActionResult Random()
         {
             var movie=new Movie() { Name="Deepak!" };
-            return View();
+            return View(movie);
         }
     }
 }
