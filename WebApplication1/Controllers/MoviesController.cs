@@ -9,8 +9,8 @@ namespace WebApplication1.Controllers
         public ActionResult Random()
         {
             var movie=new Movie() { Name="Deepak!" };
-            ViewData["Movie"] = movie;
-             return View();
+           // ViewData["Movie"] = movie;
+             return View(movie);
           //  return new ViewResult();
         }
     }
